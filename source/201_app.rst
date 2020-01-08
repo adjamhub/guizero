@@ -1,0 +1,201 @@
+===
+App
+===
+
+L'oggetto `App` è la finestra base (main window) di tutte le applicazioni grafiche create utilizzando GuiZero.
+
+
+Contiene un oggetto `tkinter.Tk`.
+
+.. code:: python
+
+    __init__(
+        self, 
+        title="guizero", 
+        width=500, 
+        height=500, 
+        layout="auto", 
+        bgcolor=None, 
+        bg=None, 
+        visible=True)
+
+
+Per creare un oggetto `App` basta scrivere una cosa tipo:
+
+
+.. code:: python
+
+    from guizero import App
+    app = App()
+    app.display()
+
+
+Parametri iniziali
+==================
+
+
+Quando si crea un oggetto `App` è possibile specificare i seguenti parametri *opzionali*. Specifica i parametri che vuoi con le parentesi come nell'esempio:
+
+.. code:: python
+
+    from guizero import App
+    app = App(bg="red", height=200)
+    app.display()
+
+
+========= ======= ========= ============ ===========================================================
+Parametro Tipo    Default   Obbligatorio Descrizione
+--------- ------- --------- ------------ -----------------------------------------------------------
+bg        color   None      No           Il colore di sfondo della window
+height    int     500       No           L'altezza della window in pixels
+layout    string  "auto"    No           Il tipo di layout. Può essere "auto" oppure "grid"
+title     string  "guizero" No           Il titolo visualizzato sulla barra del titolo della window
+width     int     500       No           La larghezza della windows in pixels
+visible   boolean True      No           Se la window è visibile oppure no
+========= ======= ========= ============ ===========================================================
+
+
+Metodi
+======
+
+Elenco alfabetico dei metodi disponibili nell'oggetto `App`:
+
+add_tk_widget(tk_widget, grid=None, align=None, visible=True, enabled=None, width=None, height=None) 
+    *tk_widget (tk), grid (list), align (str), visible (bool), enabled (bool), width (int), height (int)*
+    
+    Aggiunge una widget tk in una window GuiZero. PS: Funzionalità avanzata. Verrà utilizzata solo se necessario.
+    
+
+after(time, command, args=None)
+    *time (int), command (function name), args (list of arguments)*
+    
+    Programma una chiamata **singola** alla funzione indicata nel parametro `command` dopo `time` millisecondi.
+    
+
+cancel(command)
+    *command (function name)*
+    
+    Cancella una chiamata programmata a `command`.
+    
+
+destroy()
+    Distrugge la widget.
+    
+
+disable()
+    Disabilita la window e tutte le widget al suo interno.
+    
+    
+display()
+    Visualizza la window sullo schermo.
+    
+
+enable()
+    Abilita la window e tutte le widget al suo interno.
+    
+    
+error(title, text)
+    *title (str), text (str)*
+    
+    Visualizza un popup di errore con il titolo e il testo indicati.
+    
+    
+exit_full_screen()
+    Esce dalla visualizzazione fullscreen.
+    
+    
+focus()
+    Mette la widget in primo piano.
+    
+
+hide()
+    Nasconde la widget.
+    
+    
+info(title, text)
+    *title (str), text (str)*
+    
+    Visualizza un popup informativo con il titolo e il testo indicati.
+
+    
+question(title, text, initial_value=None)
+    *title (str), text (str), initial_value (str)*
+    
+    Visualizza un popup per una domanda con il titolo e il testo indicati e una casella per scrivere. Ritorna la stringa digitata dall'utente se preme `Ok`
+    oppure `None` se preme `Cancel`.
+    
+    
+repeat(time, command, args=None)
+    *time (int), command (function name), args (list of arguments)*
+    
+    Programma una chiamata **ripetuta** alla funzione indicata nel parametro `command` dopo ogni `time` millisecondi.
+    
+    
+select_file(title="Select file", folder=".", filetypes=[["All files", "*.*"]], save=False)
+    *title (str), folder (str), filetypes (list), save (bool)*
+    
+    Ritorna una stringa contenente il percorso completo del file selezionato nel popup.
+    
+    
+select_folder(title="Select folder", folder=".")
+    *title (str), folder (str)*
+    
+    Ritorna una stringa contenente il percorso completo della cartella selezionata nel popup.
+    
+
+set_full_screen(keybind)
+    *String*
+    
+    Imposta la widget in modalità fullscreen impostando anche il tasto con cui uscire dalla modalità (`ESC` di default)
+    
+
+show()
+    Visualizza la window se prima era stata nascosta con `hide()`.
+    
+    
+update()
+    Forza l'aggiornamento dell'applicazione. Solitamente necessario se durante l'esecuzione si aggiungono o tolgono widget dal layout.
+    
+
+warn(title, text)
+    *title (str), text (str)*
+    
+    Visualizza un popup di avviso con il titolo e il testo indicati.
+
+    
+yesno(title, text)
+    *title (str), text (str)*
+    
+    Visualizza un popup di domanda di tipo Sì/No con il titolo e il testo indicati. Ritorna un valore booleano.
+    
+
+_on_close(command)_
+    *_command (function name)_*
+    
+    Chiamata la funzione indicata quando l'utente prova a chiudere la finestra.
+    
+
+    
+Attributi
+=========
+
+Elenco degli attributi accessibili per l'oggetto `App`:
+
+=========== ======== ===========================================================
+Parametro   Tipo     Descrizione
+----------- -------- -----------------------------------------------------------
+bg          color    Il colore di sfondo della window
+children    list     La lista delle widget contenute
+enabled     boolean  Se la widget è abilitata oppure no
+height      int      L'altezza della window in pixels
+font        string   Nome del font da utilizzare nella widget
+full_screen boolean  fullscreen oppure no. Falso inizialmente.
+layout      string   Il tipo di layout. Può essere "auto" oppure "grid"
+title       string   Il titolo visualizzato sulla barra del titolo della window
+text_size   int      Dimensione del font da utilizzare nella widget
+text_color  color    Colore del font da utilizzare nella widget
+visible     boolean  Se la window è visibile oppure no
+when_closed function Funzione da chiamare quando la `App` viene chiusa
+width       int      La larghezza della windows in pixels
+=========== ======== ===========================================================
+
