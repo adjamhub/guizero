@@ -6,6 +6,29 @@
 Python: libreria GuiZero
 ========================
 
+.. warning::
+    Questa documentazione è inziata con la traduzione della documentazione ufficiale del progetto GuiZero, reperibile su `https://lawsie.github.io/guizero/`
+    ed è stata poi adattata per le lezioni di laboratorio, le esercitazioni e... lo studio :)
+    
+    Questa documentazione è in continua evoluzione, soprattutto per quanto riguarda l'ordine degli argomenti e degli esercizi, la loro presentazione e il loro
+    sviluppo.
+
+
+Come vedete, questa documentazione è divisa in 3 parti:
+
+#. Getting Started
+
+#. Using GuiZero
+
+#. Widgets
+
+La parte 1 serve solo a introdurre brevemente la libreria e a spiegare come è possibile installarla sul proprio PC. La parte 2 è la dispensa vera e propria
+che spiega come utilizzare GuiZero, che contiene gli esercizi e che va letta in ordine dall'inizio alla fine.
+La parte 3 rappresenta la documentazione sugli oggetti della libreria GuiZero: è inserita solo per consultazione dei metodi e delle proprietà degli oggetti della 
+libreria e sarà l'unica parte accessibile durante le verifiche!
+
+Buona lettura!
+    
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started

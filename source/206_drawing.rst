@@ -140,7 +140,7 @@ oval(x1, y1, x2, y2, color="black", outline=False, outline_color="black")
     
     Disegna un ovale tra i 2 punti indicati e ritorna il suo Id
 
-polygon(*coords, color="black", outline=False, outline_color="black")
+polygon(coords, color="black", outline=False, outline_color="black")
     *coords (list int), color (str), outline (int), outline_color (str)*
     
     Disegna un poligono tra tutte le coordinate passate come argomenti e ritorna il suo Id.
