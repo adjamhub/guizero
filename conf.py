@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GuiZero'
-copyright = '2019-2020, Andrea Diamantini'
+copyright = '2020, Andrea Diamantini'
 author = 'Andrea Diamantini'
 
 # The full version, including alpha/beta/rc tags
@@ -26,6 +26,9 @@ release = 'latest'
 
 
 # -- General configuration ---------------------------------------------------
+
+# needed for RTD builds
+master_doc = 'index'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -47,6 +50,9 @@ language = 'it'
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+
+# code highlights
+pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
