@@ -35,14 +35,8 @@ GuiZero può comunque evidenziare quali tipi di immagine supporta eseguendo il s
     print(system_config.supported_image_types)
 
 
-================ ================== ==========================================
-Operating System PIL NON installato PIL installato                              
----------------- ------------------ ------------------------------------------
-Windows          GIF, PNG           GIF, Animated GIF, BMP, ICO, PNG, JPG, TIF 
-MacOS            GIF                GIF, Animated GIF, BMP, ICO, PNG, JPG, TIF 
-Linux            GIF, PNG           GIF, Animated GIF, BMP, ICO, PNG, JPG, TIF 
-Raspbian         GIF, PNG           GIF, Animated GIF, BMP, ICO, PNG, JPG, TIF 
-================ ================== ==========================================
+Se avete installato tutto quello che serve, i tipi di immagine supportati sono dunque: **GIF, Animated GIF, BMP, ICO, PNG, JPG, TIF**. 
+Direi che sono abbastanza!!!
 
 
 

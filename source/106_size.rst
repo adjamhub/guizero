@@ -2,10 +2,10 @@
 Dimensionamento
 ===============
 
-In GuiZero è possibile impostare la larghezza (`width`) e l'altezza (`height`) delle widgets.
+In GuiZero è possibile impostare la larghezza (``width``) e l'altezza (``height``) delle widgets.
 
 L'unità di misura di queste proprietà può essere in pixel o in caratteri (a seconda se la widget può contenerne). Alcune
-widget inoltre possono anche essere impostate a riempire (`fill`) lo spazio disponibile.
+widget inoltre possono anche essere impostate a riempire (``fill``) lo spazio disponibile.
 
 .. code:: python
 
@@ -27,21 +27,21 @@ widget inoltre possono anche essere impostate a riempire (`fill`) lo spazio disp
 
 Vediamo una tabella riassuntiva (soprattutto utile da riconsultare quando necessario) che ci dice quali unità di misura supportano le varie widgets.
 
-====================== ==================== ==== 
-Widget                 Characters or Pixels Fill                                                                   
----------------------- -------------------- ---- 
-Box                    Pixels               Yes 
-ButtonGroup            Characters           Yes
-CheckBox               Characters           Yes                                                                         
-Combo                  Characters           Yes                                                                          
-ListBox                Pixels               Yes                                                                          
-Picture                Pixels               No   
-PushButton             Characters           Yes                                                                         
-PushButton with image  Pixels               No   
-Slider                 Pixels               Yes                                                                          
-Text                   Characters           Yes                                                                          
-TextBox                Characters           Yes  
-Waffle                 Pixels               No                                                                           
-====================== ==================== ==== 
+====================== ======================== ======== 
+**Widget**             **Characters or Pixels** **Fill**                                                                   
+---------------------- ------------------------ -------- 
+Box                    Pixels                   Yes 
+ButtonGroup            Characters               Yes
+CheckBox               Characters               Yes                                                                         
+Combo                  Characters               Yes                                                                          
+ListBox                Pixels                   Yes                                                                          
+Picture                Pixels                   No   
+PushButton             Characters               Yes                                                                         
+PushButton with image  Pixels                   No   
+Slider                 Pixels                   Yes                                                                          
+Text                   Characters               Yes                                                                          
+TextBox                Characters               Yes  
+Waffle                 Pixels                   No                                                                           
+====================== ======================== ======== 
 
 

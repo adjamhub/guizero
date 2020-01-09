@@ -40,19 +40,19 @@ La funzione chiamata può contenere opzionalmente un parametro che, se presente,
 
 Questi dati sono:
 
-* `widget`: la widget che ha scatenato l'evento
+* ``widget``: la widget che ha scatenato l'evento
 
-* `tk_event`: l'evento tkinter abbinato (speriamo non ci interessi...)
+* ``tk_event``: l'evento tkinter abbinato (speriamo non ci interessi...)
 
-* `key`:  il tasto che (eventualmente) ha scatenato l'evento
+* ``key``:  il tasto che (eventualmente) ha scatenato l'evento
 
-* `x`: la posizione x del mouse (relativa alla widget) quando l'evento è occorso
+* ``x``: la posizione x del mouse (relativa alla widget) quando l'evento è occorso
 
-* `y`: la posizione y del mouse (relativa alla widget) quando l'evento è occorso
+* ``y``: la posizione y del mouse (relativa alla widget) quando l'evento è occorso
 
-* `display_x`: la posizione x del mouse (relativa allo schermo) quando l'evento è occorso
+* ``display_x``: la posizione x del mouse (relativa allo schermo) quando l'evento è occorso
  
-* `display_y`: la posizione y del mouse (relativa allo schermo) quando l'evento è occorso
+* ``display_y``: la posizione y del mouse (relativa allo schermo) quando l'evento è occorso
 
 
 .. code:: python

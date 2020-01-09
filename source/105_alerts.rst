@@ -29,21 +29,21 @@ Tipologie di Pop-ups
 
 Vediamo l'elenco completo dei pop-up disponibili su GuiZero:
 
-* **warn(title, text)** - popup box con una icona di warning
+* ``warn(title, text)`` - popup box con una icona di warning
 
-* **info(title, text)** - popup box con una icona informativa
+* ``info(title, text)`` - popup box con una icona informativa
 
-* **error(title, text)** - popup box con una icona di errore
+* ``error(title, text)`` - popup box con una icona di errore
 
-* **yesno(title, text)** - popup box con opzioni yes/no. `Yes` ritorna `True`, `No` ritorna `False`.
+* ``yesno(title, text)`` - popup box con opzioni yes/no. `Yes` ritorna `True`, `No` ritorna `False`.
 
-* **question(title, text, initial_value=None)** - popup box con il testo per una domanda a cui si può rispondere scrivendo testo. Se premi `Ok` ritorna il valore 
+* ``question(title, text, initial_value=None)`` - popup box con il testo per una domanda a cui si può rispondere scrivendo testo. Se premi `Ok` ritorna il valore 
   digitato, se premi `Cancel` ritorna `None`.
 
-* **select_file(title="Select file", folder=".", filetypes=[["All files", "*.*"]], save=False)** - popup box per selezionare un file da aprire. 
+* ``select_file(title="Select file", folder=".", filetypes=[["All files", "*.*"]], save=False)`` - popup box per selezionare un file da aprire. 
   Se imposti `save` a `True` sarà per selezioare un percorso su cui salvare. Il `path` del file selezionato viene ritornato dalla funzione.
 
-* **select_folder(title="Select folder", folder=".")** - popup box per selezionare una directory. Il `path` selezionato viene ritornato dalla funzione.
+* ``select_folder(title="Select folder", folder=".")`` - popup box per selezionare una directory. Il `path` selezionato viene ritornato dalla funzione.
 
 
 Tutte queste popup usano il look nativo del sistema operativo che le ospita, quindi sembreranno differenti su ogni sistema operativo ma coerenti con lo stesso.
@@ -56,7 +56,7 @@ Esempi
 Warning box
 -----------
 
-Apre un messaggio di Warning con titolo `"Uh oh!"` e il messaggio `"You are almost out of biscuits!"`.
+Apre un messaggio di Warning con titolo \\"Uh oh!\\" e il messaggio \\"You are almost out of biscuits!\\".
 
 .. code:: python
 
@@ -111,10 +111,10 @@ Se premi `No`
 
 
 
-Esempio: utilizzare un alert come *callback*
---------------------------------------------
+Esempio: utilizzare un alert come **callback**
+----------------------------------------------
 
-Ciascuna di queste caselle può essere utilizzata in una funzione *callback* (cioè quando devi implementare una funzione che un'altra widget deve chiamare).
+Ciascuna di queste caselle può essere utilizzata in una funzione ``callback`` (cioè quando devi implementare una funzione che un'altra widget deve chiamare).
 In questo semplice esempio, quando premi un pulsante appare un messaggio informativo:
 
 .. code:: python

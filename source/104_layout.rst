@@ -7,20 +7,21 @@ delle finestre dell'applicazione.
 
 Le Widgets possono essere organizzate dentro **contenitori** (cioè gli oggetti `App`, `Window`, `Box`) utilizzando uno fra questi layout:
 
-* `auto`: in questo layout le widget sono posizionate automaticamente. E' il layout di default.
-* `grid`: in questo layout si divide il contenitore secondo una griglia immaginaria e si può specificare la posizione delle widget rispetto ad essa.
+* ``auto``: in questo layout le widget sono posizionate automaticamente. E' il layout di default.
+* ``grid``: in questo layout si divide il contenitore secondo una griglia immaginaria e si può specificare la posizione delle widget rispetto ad essa.
 
 Vediamo come si specifica il layout da utilizzare per un contenitore.
 
 .. code:: python
     
     app = App(layout="auto")
+    # ... oppure ...
     app = App(layout="grid")
 
 
 
-Auto layout
-===========
+Layout \\"auto\\"
+=================
 
 `auto` è il layout di default che viene utilizzato quando si crea un contenitore. Se si vuole utilizzare questo, non c'è bisogno di specificare nulla, essendo questo il layout di default. In questo layout le widget sono poste in colonna in ordine di inserimento e posizionate al centro. Un esempio è meglio di 1000 parole se oltre a leggere il codice provate a *copiaincollarlo* ed eseguirlo.
 
@@ -95,7 +96,7 @@ Una `TextBox` che riempe tutta la larghezza di un contenitore:
 .. image:: images/layout_fill_width.png
     
 
-Una `ListBox` che riempe tutto il lato sinistro usando `align="left"` e `height="fill"`:
+Una `ListBox` che riempe tutto il lato sinistro usando `align=\\"left\\"` e `height=\\"fill\\"`:
 
 .. code:: python
 
@@ -139,9 +140,8 @@ Quando più di un oggetto usa `fill`, il Window Manager (il software del Sistema
     Usare `fill` non sempre ha l'effetto che uno si aspetta quando si lavora con più widget: meglio in questo caso utilizzare il prossimo tipo di layout!
 
 
-
-Grid layout
-===========
+Layout \\"grid\\"
+=================
 
 Il `grid` layout permette di posizionare le widget in una `griglia virtuale`: essa viene divisa idealmente in una serie indefinita di celle numerate a partire
 da [0,0] che sarebbe la cella in alto a sinistra.

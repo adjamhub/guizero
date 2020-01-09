@@ -2,6 +2,9 @@
 Installazione
 =============
 
+.. warning::
+    RISCRIVIMI PENSANDO SOLO A THONNY!!!!
+    
 La libreria guizero è stata progettata per permettere a chi la studia di imparare a creare velocemente delle GUI per i propri programmi.
 
 Ci sono tre possibili opzioni per l'installazione:

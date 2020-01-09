@@ -69,9 +69,10 @@ Finestre modali
 Quando una finestra secondaria viene aperta (tramite definizione o con chiamata esplicita al comando show()), viene aperta di fianco alla finestra principale.
 Le finestre di questo tipo vengono definite **non modali**. Una **finestra modale** infatti è una finestra che si sovrappone forzatamente alla sua finestra principale.
 
-Fate attenzione ad usarle!
-
-Questo tipo di finestre sono fastidiose! Usatele solo per una reale necessità: un avviso importante, una scelta dell'utente che può compromettere i dati. Poco altro.
+.. warning::
+    **Fate attenzione a usare le finestre modali!!**
+    
+    Questo tipo di finestre è fastidioso per l'utente! Usatele solo per una reale necessità: un avviso importante, una scelta dell'utente che può compromettere i dati. Poco altro.
 
 Si attivano passando il valore ``True`` al parametro opzionale ``wait``.
 

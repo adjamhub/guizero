@@ -12,12 +12,12 @@ grafica come quella tipica dei sistemi operativi moderni.
 
 Le sue caratteristiche principali sono:
 
-* Funziona solo con la libreria GUI standard Tkinter, di cui rappresenta una reimplementazione
-* Elimina dalle opzioni tutti i dettagli *difficili* della libreria Tkinter
-* Utilizza un semplice sistema di naming per identificare tutti gli oggetti grafici
-* Abbastanza flessibile per realizzare progetti complessi, ma comunque semplice da capire per gli studenti
-* Completa di documentazione ed esempi (semplici e in Italiano, grazie al prof)
-* In grado di generare messaggi di errore addizionali
+* Funziona semplicemente grazie alla libreria GUI predefinita **Tkinter**, di cui rappresenta una reimplementazione.
+* Elimina dalle opzioni tutti i dettagli *difficili* della libreria Tkinter.
+* Utilizza un semplice sistema di naming per identificare tutti gli oggetti grafici.
+* E' abbastanza flessibile per realizzare progetti complessi, ma comunque semplice da capire per gli studenti.
+* E' Completa di documentazione ed esempi (semplici e in Italiano, grazie al prof).
+* E' In grado di generare messaggi di errore addizionali.
 
 
 Vediamo un esempio di codice:

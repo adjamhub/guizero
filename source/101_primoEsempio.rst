@@ -62,13 +62,13 @@ Diamo un occhio all'oggetto `Text` più da vicino:
     message = Text(app, text="Welcome to the Hello world app!")
 
 
-* `message =` sarebbe la variabile che contiene l'oggetto di tipo `Text`
+* ``message`` sarebbe la variabile che contiene l'oggetto di tipo `Text`
 
-* `Text` è il tipo di oggetto. E' una widget che visualizza un pò testo sullo schermo. In italiano di solito si traduce con `Etichetta`.
+* ``Text`` è il tipo di oggetto. E' una widget che visualizza un pò testo sullo schermo. In italiano di solito si traduce con `Etichetta`.
 
-* `app` è l'oggetto di tipo `App` (Main Window) che conterrà l'etichetta.
+* ``app`` è l'oggetto di tipo `App` (Main Window) che conterrà l'etichetta.
 
-* `text="Welcome to the Hello world app!"` il testo da visualizzare.
+* ``text="Welcome to the Hello world app!"`` il testo da visualizzare.
 
 
 E questo è quanto per adesso! Per imparare più cose sull'oggetto Text e su tutte le altre widget vi basterà leggere la documentazione su di esse.
