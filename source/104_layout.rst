@@ -296,3 +296,9 @@ Analogamente possiamo scrivere un codice simile per mettere i pulsanti *OK* e *C
 
     .. image:: images/layout_boxes.jpg
 
+
+
+Esercizi
+========
+
+blah blah

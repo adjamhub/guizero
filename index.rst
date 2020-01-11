@@ -38,14 +38,16 @@ Buona lettura!
 
    source/101_primoEsempio.rst
    source/102_commands.rst
-   source/103_multiple_windows.rst
+   source/103_widgets.rst
    source/104_layout.rst
-   source/105_alerts.rst
    source/106_size.rst
    source/107_colors.rst
    source/108_images.rst
    source/109_events.rst
-
+   source/120_alerts.rst
+   source/130_multiple_windows.rst
+   source/150_esercizi.rst
+   
 
 .. toctree::
    :maxdepth: 1
