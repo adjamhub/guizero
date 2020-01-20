@@ -5,7 +5,6 @@
 
 Python: libreria GuiZero
 ========================
-`adjam site <https://www.adjam.org>`_
 
 .. warning::
     Questa documentazione è inziata con la traduzione della documentazione ufficiale del progetto GuiZero, reperibile su `<https://lawsie.github.io/guizero/>`_
