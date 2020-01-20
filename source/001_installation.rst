@@ -2,106 +2,38 @@
 Installazione
 =============
 
-.. warning::
-    RISCRIVIMI PENSANDO SOLO A THONNY!!!!
-    
+
 La libreria guizero è stata progettata per permettere a chi la studia di imparare a creare velocemente delle GUI per i propri programmi.
 
-Ci sono tre possibili opzioni per l'installazione:
+Installare la libreria sul proprio sistema operativo è semplicissimo. Se siete utenti esperti vi basterà sapere che la libreria **GuiZero**
+è disponibile su PyPi e si installa tramite pip, quindi da terminale basta digitare:
 
-#. il download del codice dal repository dove viene sviluppato
-
-#. l'installazione tramite **python pip**
-
-#. (solo Windows) l'installazione tramite pacchetto MSI installer
-
-
-Il metodo con pip presenta numerosi vantaggi:
+.. code:: bash
+    
+    $ pip3 install guizero
 
 
-Installazione tramite Python pip
-================================
+Se volete essere accompagnati su tutti i passaggi, vi dirò invece che noi lavoriamo in Python e lavoreremo sulla libreria GuiZero
+utilizzando `Thonny <https://thonny.org>`_. 
 
-You can use the command prompt and `pip` to install guizero for:
+Thonny è un ambiente di sviluppo integrato (Integrated Development Environment, IDE) pensato per i principianti che vogliono approcciare 
+la programmazione con il linguaggio Python.
 
-+ [Windows](#windows)
-+ [macOS](#macos)
-+ [Raspberry Pi](#raspberry-pi)
-+ [Linux](#linux)
+Installa in un solo colpo l’IDE (Thonny), il compilatore e interprete (Python) e tutte le librerie predefinite dell’ambiente; 
+integra inoltre al suo interno una interfaccia semplice per il debug delle applicazioni e una interfaccia grafica (ancora più semplice) 
+per l’accesso a PyPi (Python Package Index, https://pypi.org, il repository condiviso di tutte le librerie Python aggiuntive).
 
-`pip` can also be used to [install additional features](#additional-features-install) and [upgrade guizero](#upgrading).
+Installarlo è semplice come aprire il proprio browser preferito su https://thonny.org/, scegliere il pacchetto destinato 
+al proprio sistema operativo e installarlo.
 
+.. image:: images/thonny_org.jpg
 
-Windows
--------
+Scaricate dal sito indicato il pacchetto adatto al vostro sistema operativo e procedete alla sua installazione.
 
-1. Open a command prompt by clicking **Start** > **Windows System** > **Command Prompt**, or by typing 'command' into the start menu's search bar.
+Una volta installato, aprite Thonny e procedete a scaricare la libreria GuiZero usufruendo dell'interfaccia semplice di Thonny per pip: dal
+menù *STRUMENTI* ---> *GESTISCI I PACCHETTI* ---> *GUIZERO*:
 
-    .. image:: images/windows_command_prompt_app.png
-
-2. Type this command and press enter:
-
-    .. code:: bash
-
-        $ pip3 install guizero
-
-    .. image:: images/windows_pip_install.gif
+.. image:: images/thonny_pip_guizero.jpg
 
 
-If you experience problems, have a look at this guide to [_Using pip on Windows_](https://projects.raspberrypi.org/en/projects/using-pip-on-windows).
-
-
-macOS
------
-
-1. Open a terminal window by clicking **Applications** > **Utilities** > **Terminal**, or by typing 'terminal' into the desktop's search bar.
-
-   .. image:: images/mac-terminal.png
-
-2. Type this command and press enter:
-
-    .. code:: bash
-        
-        $ pip3 install guizero
-
-   .. image:: images/mac_pip_install.gif
-
-
-Linux
------
-
-1. Open a terminal
-2. Install `tkinter` using your distribution's package manager, e.g. `sudo apt install python3-tk`
-3. Install guizero using pip by typing `pip3 install guizero` or `sudo pip3 install guizero` if you don't have superuser rights
-
-   .. image:: images/linux_pip_install.gif
-
-**Note:** If you are using Debian, you alternatively have the option to install guizero via apt
-`sudo apt-get install python-guizero`
-
-
-
-### Install additional features
-
-To use the additional [image features](images.md) of guizero such as:
-
-- JPG image support
-- scaling images
-- animated gifs
-
-... you will need to install guizero with the pip command:
-
-- Windows / macOS
-
-    .. code:: bash
-        
-        $ pip install guizero[images]
-
-- Linux / Raspberry Pi
-
-    .. code:: bash
-        
-        $ sudo pip install guizero[images]
-
-The additional image features are not available to install using the easy install method.
-
+Tutto qui!
