@@ -68,7 +68,7 @@ Quando si crea un oggetto `PushButton`, **si deve specificare un master** e poi 
 
 ========== ================ ========= ============ ========================================================================================
 Parametro  Tipo             Default   Obbligatorio Descrizione
----------- ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+========== ================ ========= ============ ========================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 command    function         None      No           La funzione da eseguire quando un'opzione viene selezionata
 align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
@@ -171,7 +171,7 @@ Elenco degli attributi accessibili per l'oggetto `PushButton`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

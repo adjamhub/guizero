@@ -42,7 +42,7 @@ Quando si crea un oggetto `Drawing`, **si deve specificare un master** e poi eve
 
 ========== ================ ========= ============ ===============================================================================================================
 Parametro  Tipo             Default   Obbligatorio Descrizione
----------- ---------------- --------- ------------ ---------------------------------------------------------------------------------------------------------------
+========== ================ ========= ============ ===============================================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 enabled    boolean          None      No           Se la widget è abilitata oppure no.
@@ -173,7 +173,7 @@ Elenco degli attributi accessibili per l'oggetto `Drawing`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

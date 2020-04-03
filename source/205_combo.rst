@@ -44,7 +44,7 @@ Quando si crea un oggetto `Combo`, **si deve specificare un master** e poi event
 
 ========== ================ ========= ============ ===============================================================================================================
 Parametro  Tipo             Default   Obbligatorio Descrizione
----------- ---------------- --------- ------------ ---------------------------------------------------------------------------------------------------------------
+========== ================ ========= ============ ===============================================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 options    list             None      No           La lista dei valori da visualizzare
 selected   string           None      No           Il valore selezionato inizialmente
@@ -153,7 +153,7 @@ Elenco degli attributi accessibili per l'oggetto `CheckBox`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

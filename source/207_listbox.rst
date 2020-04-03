@@ -47,7 +47,7 @@ Quando si crea un oggetto `ListBox`, **si deve specificare un master** e poi eve
 
 =========== ================ ========= ============ ========================================================================================
 Parametro   Tipo             Default   Obbligatorio Descrizione
------------ ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+=========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 selected    string or list   None      No           L'elemento (o gli elementi) selezionati
 items       list                                    La lista degli elementi da visualizzare
@@ -155,7 +155,7 @@ Elenco degli attributi accessibili per l'oggetto `ListBox`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

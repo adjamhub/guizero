@@ -46,7 +46,7 @@ Quando si crea un oggetto `ButtonGroup`, **si deve specificare un master** e poi
 
 ========== ================ ========= ============ ========================================================================================
 Parametro  Tipo             Default   Obbligatorio Descrizione
----------- ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+========== ================ ========= ============ ========================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 options    List, 2D List              No           Lista degli elementi. In caso di lista 2D gli elementi saranno una coppia [text, value]
 selected   string                     No           Il valore inizialmente selezionato
@@ -151,7 +151,7 @@ Elenco degli attributi accessibili per l'oggetto `ButtonGroup`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

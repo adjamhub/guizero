@@ -44,7 +44,7 @@ Quando si crea un oggetto `Slider`, **si deve specificare un master** e poi even
 
 =========== ================ ========= ============ ========================================================================================
 Parametro   Tipo             Default   Obbligatorio Descrizione
------------ ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+=========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 align       string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 command     function         None      No           La funzione da eseguire quando un'opzione viene selezionata
@@ -127,7 +127,7 @@ Elenco degli attributi accessibili per l'oggetto `Slider`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

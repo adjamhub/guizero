@@ -27,9 +27,9 @@ widget inoltre possono anche essere impostate a riempire (``fill``) lo spazio di
 
 Vediamo una tabella riassuntiva (soprattutto utile da riconsultare quando necessario) che ci dice quali unità di misura supportano le varie widgets.
 
-====================== ======================== ======== 
-**Widget**             **Characters or Pixels** **Fill**                                                                   
----------------------- ------------------------ -------- 
+====================== ======================== ==== 
+Widget                 Characters or Pixels     Fill                                                                   
+====================== ======================== ==== 
 Box                    Pixels                   Yes 
 ButtonGroup            Characters               Yes
 CheckBox               Characters               Yes                                                                         
@@ -42,6 +42,6 @@ Slider                 Pixels                   Yes
 Text                   Characters               Yes                                                                          
 TextBox                Characters               Yes  
 Waffle                 Pixels                   No                                                                           
-====================== ======================== ======== 
+====================== ======================== ==== 
 
 

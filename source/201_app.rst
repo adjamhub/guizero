@@ -45,11 +45,11 @@ Quando si crea un oggetto `App` è possibile specificare i seguenti parametri *o
 
 ========= ======= ========= ============ ===========================================================
 Parametro Tipo    Default   Obbligatorio Descrizione
---------- ------- --------- ------------ -----------------------------------------------------------
+========= ======= ========= ============ ===========================================================
 bg        color   None      No           Il colore di sfondo della window
 height    int     500       No           L'altezza della window in pixels
-layout    string  "auto"    No           Il tipo di layout. Può essere "auto" oppure "grid"
-title     string  "guizero" No           Il titolo visualizzato sulla barra del titolo della window
+layout    string  *auto*    No           Il tipo di layout. Può essere *auto* oppure *grid*
+title     string  *guizero* No           Il titolo visualizzato sulla barra del titolo della window
 width     int     500       No           La larghezza della windows in pixels
 visible   boolean True      No           Se la window è visibile oppure no
 ========= ======= ========= ============ ===========================================================
@@ -183,7 +183,7 @@ Elenco degli attributi accessibili per l'oggetto `App`:
 
 =========== ======== ===========================================================
 Parametro   Tipo     Descrizione
------------ -------- -----------------------------------------------------------
+=========== ======== ===========================================================
 bg          color    Il colore di sfondo della window
 children    list     La lista delle widget contenute
 enabled     boolean  Se la widget è abilitata oppure no

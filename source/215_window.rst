@@ -39,7 +39,7 @@ Quando si crea un oggetto `Window`, **si deve specificare un master** e poi even
 
 ========= ======= ========= ============ ===========================================================
 Parametro Tipo    Default   Obbligatorio Descrizione
---------- ------- --------- ------------ -----------------------------------------------------------
+========= ======= ========= ============ ===========================================================
 master    App               Yes          La App a cui la Window appartiene
 bg        color   None      No           Il colore di sfondo della window
 height    int     500       No           L'altezza della window in pixels
@@ -177,7 +177,7 @@ Elenco degli attributi accessibili per l'oggetto `Window`:
 
 =========== ======== ===========================================================
 Parametro   Tipo     Descrizione
------------ -------- -----------------------------------------------------------
+=========== ======== ===========================================================
 bg          color    Il colore di sfondo della window
 children    list     La lista delle widget contenute
 enabled     boolean  Se la widget è abilitata oppure no

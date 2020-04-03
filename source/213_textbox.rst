@@ -48,7 +48,7 @@ Quando si crea un oggetto `TextBox`, **si deve specificare un master** e poi eve
 
 =========== ================ ========= ============ ========================================================================================
 Parametro   Tipo             Default   Obbligatorio Descrizione
------------ ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+=========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 align       string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 grid        List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
@@ -144,7 +144,7 @@ Elenco degli attributi accessibili per l'oggetto `TextBox`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

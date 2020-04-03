@@ -9,7 +9,7 @@ Questi eventi sono:
 
 ============================ =================================================
 Evento                       Descrizione
----------------------------- -------------------------------------------------
+============================ =================================================
 `when_clicked`               Quando si fa click sopra un oggetto
 `when_left_button_pressed`   Quando si tiene premuto il tasto sx del mouse
 `when_left_button_released`  Quando si rilascia il tasto sx del mouse

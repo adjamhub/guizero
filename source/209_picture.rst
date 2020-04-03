@@ -46,7 +46,7 @@ Quando si crea un oggetto `Picture`, **si deve specificare un master** e poi eve
 
 =========== ================ ========= ============ ========================================================================================
 Parametro   Tipo             Default   Obbligatorio Descrizione
------------ ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+=========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 image       string           None      -            Il percorso relativo dell'immagine da visualizzare
 align       string           None      -            Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
@@ -121,7 +121,7 @@ Elenco degli attributi accessibili per l'oggetto `Picture`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.

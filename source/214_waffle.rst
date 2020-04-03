@@ -47,7 +47,7 @@ Quando si crea un oggetto `Waffle`, **si deve specificare un master** e poi even
 
 =========== ================ ========= ============ ========================================================================================
 Parametro   Tipo             Default   Obbligatorio Descrizione
------------ ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+=========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 align       string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 color       color            white                  Il colore di default dello `Waffle`
@@ -155,7 +155,7 @@ Elenco degli attributi accessibili per l'oggetto `Waffle`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo della widget
 color       color            Il colore di default dei pixel
@@ -218,7 +218,7 @@ Elenco degli attributi accessibili per l'oggetto `WafflePixel`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 x           int              coordinata x del pixel nella widget
 y           int              coordinata y del pixel nella widget
 canvas_x    int              coordinata x del pixel nel canvas

@@ -41,11 +41,11 @@ Quando si crea un oggetto `Box`, **si deve specificare un master** e poi eventua
 
 ========= ================ ========= ============ ========================================================================================
 Parametro Tipo             Default   Obbligatorio Descrizione
---------- ---------------- --------- ------------ ----------------------------------------------------------------------------------------
+========= ================ ========= ============ ========================================================================================
 master    App, Window, Box           Yes          Il contenitore a cui il Box appartiene
 align     string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 grid      List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
-layout    string           "auto"    No           Tipo di layout: "auto" oppure "grid".
+layout    string           *auto*    No           Tipo di layout: *auto* oppure *grid*.
 visible   boolean          True      No           Visibilità della widget
 enabled   boolean          None      No           Se la widget è abilitata oppure no.
 width     size             None      No           Larghezza della widget in pixel, oppure `"fill"`
@@ -130,7 +130,7 @@ Elenco degli attributi accessibili per l'oggetto `Box`:
 
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
------------ ---------------- ----------------------------------------------------------------------------------------
+=========== ================ ========================================================================================
 align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
 bg          color            Il colore di sfondo del Box
 border      int              Larghezza del bordo in pixels.
