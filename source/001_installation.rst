@@ -5,7 +5,9 @@ Installazione
 
 La libreria guizero è stata progettata per permettere a chi la studia di imparare a creare velocemente delle GUI per i propri programmi.
 
-Installare la libreria sul proprio sistema operativo è semplicissimo. Se siete utenti esperti vi basterà sapere che la libreria **GuiZero**
+Installare la libreria sul proprio sistema operativo è semplicissimo. 
+
+Se siete utenti esperti vi basterà sapere che la libreria **GuiZero**
 è disponibile su PyPi e si installa tramite pip, quindi da terminale basta digitare:
 
 .. code:: bash
@@ -13,25 +15,19 @@ Installare la libreria sul proprio sistema operativo è semplicissimo. Se siete 
     $ pip3 install guizero
 
 
-Se volete essere accompagnati su tutti i passaggi, vi dirò invece che noi lavoriamo in Python e lavoreremo sulla libreria GuiZero
-utilizzando `Thonny <https://thonny.org>`_. 
+Per tutti gli altri, bisogna semplicemente aggiungere che noi utilizzeremo sempre e solo `Thonny <https://thonny.org>`_ per lavorare sulla libreria **GuiZero**. 
 
-Thonny è un ambiente di sviluppo integrato (Integrated Development Environment, IDE) pensato per i principianti che vogliono approcciare 
-la programmazione con il linguaggio Python.
+Se volete avere indicazioni su come si installa e come si utilizza, sono state
+inserite nel file 00 del corso di Python.
 
-Installa in un solo colpo l’IDE (Thonny), il compilatore e interprete (Python) e tutte le librerie predefinite dell’ambiente; 
-integra inoltre al suo interno una interfaccia semplice per il debug delle applicazioni e una interfaccia grafica (ancora più semplice) 
-per l’accesso a PyPi (Python Package Index, https://pypi.org, il repository condiviso di tutte le librerie Python aggiuntive).
+Fra le varie comodità per la programmazione in Python offerte da **Thonny** 
+quella che ci interessa in questo momento è la sua interfaccia semplice a
+**PyPi**, ovvero il repository dei pacchetti aggiuntivi per Python (PyPi sta per **Python Package Index**).
 
-Installarlo è semplice come aprire il proprio browser preferito su https://thonny.org/, scegliere il pacchetto destinato 
-al proprio sistema operativo e installarlo.
+Da Thonny, aprite il menù *STRUMENTI* ---> *GESTISCI I PACCHETTI*:
 
-.. image:: images/thonny_org.jpg
-
-Scaricate dal sito indicato il pacchetto adatto al vostro sistema operativo e procedete alla sua installazione.
-
-Una volta installato, aprite Thonny e procedete a scaricare la libreria GuiZero usufruendo dell'interfaccia semplice di Thonny per pip: dal
-menù *STRUMENTI* ---> *GESTISCI I PACCHETTI* ---> *GUIZERO*:
+Cercate **guizero** nella barra di ricerca, seleziona **TROVA UN PACCHETTO PyPi**
+e infine clicca **INSTALLA**.
 
 .. image:: images/thonny_pip_guizero.jpg
 

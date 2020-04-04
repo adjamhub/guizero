@@ -16,9 +16,10 @@ Iniziamo!
 
 
 
-**Esempio con App, PushButton, TextBox**
+App, PushButton, TextBox
+========================
 
-Nell'esempio che segue l'utente può inserire una frase nella linea di testo; quando clicca il pulsante la TextBox si resetta e si modifica il
+Nell'esempio iniziale l'utente può inserire una frase nella linea di testo; quando clicca il pulsante la TextBox si resetta e si modifica il
 titolo della finestra.
 
 .. code:: python
@@ -58,7 +59,8 @@ Creare una applicazione con un pulsante "CHIUDI". Quando lo clicchi, l'applicazi
 
 
 
-**Esempio con ButtonGroup**
+ButtonGroup
+===========
 
 Nell'esempio che segue abbiamo una lista di voci nella ButtonGroup da cui selezionare una (e una sola voce) che sarà visualizzata nella Text sotto.
 
@@ -98,7 +100,8 @@ si scrive "Buonasera", fra le 22 e le 6 si scrive "Buonanotte".
 
 
 
-**Esempio con CheckBox**
+CheckBox
+========
 
 Nell'esempio seguente l'utente seleziona i suoi piatti preferiti e man mano che seleziona si aggiorna la lista sulla Text in fondo.
 
@@ -145,20 +148,23 @@ inizialmente vuoto, che in ogni elemento conterrà come chiave il nome del cibo 
 
 
 
-Esempio con Combo
+Combo
+=====
+
 
 Es 03
 
-Esempio con ListBox
+ListBox
+=======
+
 
 Es 04
 
-Picture
-
-Es 05
 
 Slider
+======
 
-Es 06
+
+Es 05
 
 
