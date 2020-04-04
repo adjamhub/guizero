@@ -1,6 +1,0 @@
-========
-Esercizi 
-========
-
-
-blah blah

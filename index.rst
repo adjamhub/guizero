@@ -38,14 +38,15 @@ Buona lettura!
    source/101_primoEsempio.rst
    source/102_commands.rst
    source/103_widgets.rst
-   source/104_layout.rst
-   source/106_size.rst
-   source/107_colors.rst
-   source/108_images.rst
-   source/109_events.rst
+   source/104_ex_ex.rst
+   source/110_layout.rst
+   source/111_size.rst
+   source/112_colors.rst
    source/120_alerts.rst
+   source/125_images.rst
    source/130_multiple_windows.rst
-   source/150_esercizi.rst
+   source/140_events.rst
+   source/150_exercises.rst
    
 
 .. toctree::

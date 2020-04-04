@@ -11,6 +11,8 @@ All'inizio di ogni programma con guizero devi scegliere gli oggetti grafici che 
     from guizero import App, PushButton, Slider
     
 
+Nell'esempio sopra sono stati importati 3 oggetti: *App*, *PushButton* e *Slider*.
+
 Tutti i programmi guizero iniziano con una *main window* che viene definita **App**. La struttura tipica di ogni applicazione guizero è:
 
 #. Crei un oggetto di tipo App
@@ -39,8 +41,8 @@ Aggiungere widgets
 
 Le **widget** sono gli oggetti grafici che appaiono in una GUI, come i pulsanti, gli slider, le caselle di spunta, ecc...
 
-Dal punto di vista della programmazione, ogni widget che va inserita in una main window va istanziata dichiarando in quale app
-andrà inserita.
+Dal punto di vista della programmazione, una widget è dunque un oggetto (un'istanza) di una classe grafica. Essa va inserita in una main window,
+indicandolo in fase di istanziazione:
 
 
 .. code:: python
@@ -71,5 +73,7 @@ Diamo un occhio all'oggetto `Text` più da vicino:
 * ``text="Welcome to the Hello world app!"`` il testo da visualizzare.
 
 
-E questo è quanto per adesso! Per imparare più cose sull'oggetto Text e su tutte le altre widget vi basterà leggere la documentazione su di esse.
+E questo è quanto per adesso! 
+
+Per imparare più cose sull'oggetto Text e su tutte le altre widget vi basterà leggere la documentazione su di esse.
 

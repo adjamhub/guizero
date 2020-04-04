@@ -53,3 +53,15 @@ GIF animate
 
 Se `PIL` non è installato le GIF animate saranno visualizzate in modalità statica.
 
+
+Esercizi
+========
+
+Qualcuno semplice
+
+Visualizzatore immagini
+
+Slideshow
+
+Gif Viewer
+
