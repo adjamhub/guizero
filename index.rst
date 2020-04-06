@@ -22,7 +22,7 @@ Come vedete, questa documentazione è divisa in 3 parti:
 
 #. La parte 3 rappresenta la documentazione sugli oggetti della libreria GuiZero: è inserita solo per consultazione dei metodi e delle proprietà degli oggetti della libreria e sarà l'unica parte accessibile durante le verifiche!
 
-Buona lettura!
+**Buona lettura!**
     
 .. toctree::
    :maxdepth: 1

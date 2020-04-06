@@ -89,8 +89,7 @@ e i nomi delle funzioni in Inglese:
             
 
 .. warning:: 
-    **Attenzione!**
-    
+
     Una MenuBar non viene mai visualizzata all'interno di un layout di tipo grid: ecco perché non ci sono in essa
     parametri per il layout o l'allineamento.
     
