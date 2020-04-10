@@ -294,7 +294,7 @@ Analogamente possiamo scrivere un codice simile per mettere i pulsanti *OK* e *C
 .. note::
     Quando progetti una GUI potrebbe essere più semplice provare **prima** a disegnarla a matita, per ragionare su widget e layout.
 
-    .. image:: images/layout_boxes.jpg
+    .. image:: images/layout_scheme.jpg
 
 
 
