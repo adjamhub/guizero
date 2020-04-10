@@ -37,7 +37,10 @@ titolo della finestra.
     app.display()
 
 
-    
+.. image:: esempi/es000.jpg
+
+
+
 **Esercizio 001 (PushButton)**
 
 Creare una applicazione con una finestra con titolo *Ciccio* che contiene un pulsante. Quando clicchi il pulsante, il titolo
@@ -80,7 +83,10 @@ Nell'esempio che segue abbiamo una lista di voci nella ButtonGroup da cui selezi
     app.display()
 
 
-    
+.. image:: esempi/es010.jpg
+
+
+
 **Esercizio 011 (ButtonGroup, Text)**
 
 Testare il codice precedente, cambiando la domanda iniziale in *Dimmi come vieni a scuola*, nell'elenco delle opzioni ci devono essere una serie
@@ -147,6 +153,10 @@ Nell'esempio seguente l'utente seleziona i suoi piatti preferiti e man mano che 
     app.display()
 
 
+.. image:: esempi/es020.jpg
+
+
+
 **Esercizio 021 (Text, CheckBox)**
 
 Reimplementa lo stesso esercizio dell'esempio, partendo però da una tupla che contiene l'elenco dei cibi da controllare e da un dizionario
@@ -179,10 +189,16 @@ Continuiamo con gli esempi culinari... seleziona un cibo che viene visualizzato 
         return
         
     app = App(title="sempre cibo...")
-    combo = Combo(app, options=["Beef", "Chicken", "Fish", "Vegetarian"],command=visualizzaCibo)
+    combo = Combo(app, 
+                    options=["Beef", "Chicken", "Fish", "Vegetarian"],
+                    command=visualizzaCibo)
     testo = Text(app)
     
     app.display()
+
+
+.. image:: esempi/es030.jpg
+
 
 
 **Esercizio 031 ()**
@@ -216,10 +232,15 @@ Analogo esempio della combo, stavolta applicato ad una ListBox: quando selezioni
         return
 
     app = App()
-    listbox = ListBox(app, items=["Beef", "Chicken", "Fish", "Vegetarian"])
+    listbox = ListBox(app, 
+                        items=["Beef", "Chicken", "Fish", "Vegetarian"],
+                        command=visualizzaCibo)
     testo = Text(app)
     
     app.display()
+
+
+.. image:: esempi/es040.jpg
 
 
 
@@ -257,6 +278,9 @@ Slider
     testo = Text(app)
     
     app.display()
+
+
+.. image:: esempi/es050.jpg
 
 
 
