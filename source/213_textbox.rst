@@ -50,13 +50,13 @@ Quando si crea un oggetto `TextBox`, **si deve specificare un master** e poi eve
 Parametro   Tipo             Default   Obbligatorio Descrizione
 =========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
-align       string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 grid        List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
 text        string           ""                     Il testo "pre-inserito" nella `TextBox`
 visible     boolean          True      No           Visibilità della widget
 enabled     boolean          None      No           Se la widget è abilitata oppure no.
-width       size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height      size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width       size             None      No           Larghezza della widget **in caratteri**, oppure \\"fill\\"
+height      size             None      No           Altezza della widget **in caratteri**, oppure \\"fill\\"
 multiline   boolean          False     No           Se True, permette di inserire più linee di testo
 scrollbar   boolean          False     No           Aggiunge la scrollbar verticale alla TextBox multiline
 command     function         None                   La funzione da chiamare quando il testo cambia (con ZERO oppure 1 argomento: il testo)
@@ -145,19 +145,19 @@ Elenco degli attributi accessibili per l'oggetto `TextBox`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
 font        string           Nome del font da utilizzare nella widget
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in caratteri**, oppure \\"fill\\".
 hide_text   boolean          Se True, nasconde il testo con `*` permettendo di digitare una password.
 master      App, Window, Box Il contenitore a cui la widget appartiene
 text_size   int              Dimensione del font da utilizzare nella widget
 text_color  color            Colore del font da utilizzare nella widget
 value       string           Il testo corrente
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in caratteri**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 
 

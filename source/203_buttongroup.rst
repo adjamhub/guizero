@@ -50,15 +50,15 @@ Parametro  Tipo             Default   Obbligatorio Descrizione
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 options    List, 2D List              No           Lista degli elementi. In caso di lista 2D gli elementi saranno una coppia [text, value]
 selected   string                     No           Il valore inizialmente selezionato
-align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align      string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 command    function         None      No           La funzione da eseguire quando un'opzione viene selezionata
 args       List             None      No           Gli (eventuali) argomenti da passare alla funzione del parametro command
 grid       List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
 horizontal boolean          False     No           Se le opzioni sono ordinati verticalmente (default) o orizzontalmente
 visible    boolean          True      No           Visibilità della widget
 enabled    boolean          None      No           Se la widget è abilitata oppure no.
-width      size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height     size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width      size             None      No           Larghezza della widget **in caratteri**, oppure \\"fill\\"
+height     size             None      No           Altezza della widget **in caratteri**, oppure \\"fill\\"
 ========== ================ ========= ============ ========================================================================================
 
 
@@ -152,19 +152,19 @@ Elenco degli attributi accessibili per l'oggetto `ButtonGroup`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
 font        string           Nome del font da utilizzare nella widget
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in caratteri**, oppure \\"fill\\".
 master      App, Window, Box Il contenitore a cui la widget appartiene
 text_size   int              Dimensione del font da utilizzare nella widget
 text_color  color            Colore del font da utilizzare nella widget
 value       string           Il valore (eventualmente) nascosto abbinato all'opzione selezionata
 value_text  string           Il testo associato con l'opzione selezionata.
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in caratteri**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 
 

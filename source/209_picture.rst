@@ -49,12 +49,12 @@ Parametro   Tipo             Default   Obbligatorio Descrizione
 =========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 image       string           None      -            Il percorso relativo dell'immagine da visualizzare
-align       string           None      -            Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
-grid        List             None      -            Coordinate `[x,y]` della widget. Solo con layout grid.
+align       string           None      -            Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
+grid        List             None      -            Coordinate **[x,y]** della widget. Solo con layout grid.
 visible     boolean          True      No           Visibilità della widget
 enabled     boolean          None      No           Se la widget è abilitata oppure no.
-width       size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height      size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width       size             None      No           Larghezza della widget **in pixel**, oppure \\"fill\\"
+height      size             None      No           Altezza della widget **in pixel**, oppure \\"fill\\"
 =========== ================ ========= ============ ========================================================================================
 
 
@@ -122,15 +122,15 @@ Elenco degli attributi accessibili per l'oggetto `Picture`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in pixel**, oppure \\"fill\\".
 image       string           Il percorso relativo dell'immagine da visualizzare
 master      App, Window, Box Il contenitore a cui la widget appartiene
 value       string           Il percorso relativo dell'immagine da visualizzare
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in pixel**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 

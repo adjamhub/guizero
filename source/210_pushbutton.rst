@@ -71,17 +71,17 @@ Parametro  Tipo             Default   Obbligatorio Descrizione
 ========== ================ ========= ============ ========================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 command    function         None      No           La funzione da eseguire quando un'opzione viene selezionata
-align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align      string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 args       List             None      No           Gli (eventuali) argomenti da passare alla funzione del parametro command
-grid       List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
+grid       List             None      No           Coordinate **[x,y]** della widget. Solo con layout grid.
 image      string           None      No           Il percorso relativo dell'immagine da visualizzare
 padx       int              10                     Padding orizzontale
 pady       int              10                     Padding verticale
 text       string           "Button"               Il testo da visualizzare sopra al pulsante
 visible    boolean          True      No           Visibilità della widget
 enabled    boolean          None      No           Se la widget è abilitata oppure no.
-width      size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height     size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width      size             None      No           Larghezza della widget **in caratteri**, oppure \\"fill\\"
+height     size             None      No           Altezza della widget **in caratteri**, oppure \\"fill\\"
 ========== ================ ========= ============ ========================================================================================
 
 
@@ -172,18 +172,18 @@ Elenco degli attributi accessibili per l'oggetto `PushButton`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
 font        string           Nome del font da utilizzare nella widget
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in caratteri**, oppure \\"fill\\".
 master      App, Window, Box Il contenitore a cui la widget appartiene
 text        string           Il testo del pulsante
 text_size   int              Dimensione del font da utilizzare nella widget
 text_color  color            Colore del font da utilizzare nella widget
 value       string           Ritorna `1` se il pulsante è premuto, `0` altrimenti.
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in caratteri**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 

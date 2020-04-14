@@ -49,15 +49,15 @@ Quando si crea un oggetto `Waffle`, **si deve specificare un master** e poi even
 Parametro   Tipo             Default   Obbligatorio Descrizione
 =========== ================ ========= ============ ========================================================================================
 master      App, Window, Box           Yes          Il contenitore a cui la widget appartiene
-align       string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 color       color            white                  Il colore di default dello `Waffle`
 command     function         None                   La funzione da chiamare quando il testo cambia (con ZERO oppure 1 argomento: il testo)
 dim         int              20                     Quanto è largo ognuno dei riquadri dello `Waffle`
 dotty       boolean          False                  Se i pixel visualizzano punti (True) oppure quadrati (False)
-grid        List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             3         No           Altezza della widget in pixel, oppure `"fill"`
+grid        List             None      No           Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             3         No           Altezza della widget **in pixel**, oppure \\"fill\\"
 pad         int              3                      Quanto spazio è presente fra ogni pixel del Waffle.
-width       size             5         No           Larghezza della widget in pixel, oppure `"fill"`
+width       size             5         No           Larghezza della widget **in pixel**, oppure \\"fill\\"
 visible     boolean          True      No           Visibilità della widget
 enabled     boolean          None      No           Se la widget è abilitata oppure no.
 bg          color            None      No           Il colore di sfondo del `Waffle`
@@ -156,18 +156,18 @@ Elenco degli attributi accessibili per l'oggetto `Waffle`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 color       color            Il colore di default dei pixel
 dotty       boolean          pixel in punti (True) oppure in quadrati (False)
 enabled     boolean          Se la widget è abilitata oppure no.
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in pixel**, oppure \\"fill\\".
 master      App, Window, Box Il contenitore a cui la widget appartiene
 pad         int              La dimensione del padding fra i pixel
 pixel_size  int              La dimensione di 1 pixel
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in pixel**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 
 

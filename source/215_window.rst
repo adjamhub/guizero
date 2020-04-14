@@ -42,10 +42,10 @@ Parametro Tipo    Default   Obbligatorio Descrizione
 ========= ======= ========= ============ ===========================================================
 master    App               Yes          La App a cui la Window appartiene
 bg        color   None      No           Il colore di sfondo della window
-height    int     500       No           L'altezza della window in pixels
-layout    string  "auto"    No           Il tipo di layout. Può essere "auto" oppure "grid"
+height    int     500       No           L'altezza della window **in pixels**
+layout    string  "auto"    No           Il tipo di layout. Può essere \\"auto\\" oppure \\"grid\\"
 title     string  "guizero" No           Il titolo visualizzato sulla barra del titolo della window
-width     int     500       No           La larghezza della windows in pixels
+width     int     500       No           La larghezza della windows **in pixels**
 visible   boolean True      No           Se la window è visibile oppure no
 ========= ======= ========= ============ ===========================================================
 
@@ -181,16 +181,16 @@ Parametro   Tipo     Descrizione
 bg          color    Il colore di sfondo della window
 children    list     La lista delle widget contenute
 enabled     boolean  Se la widget è abilitata oppure no
-height      int      L'altezza della window in pixels
+height      int      L'altezza della window **in pixels**
 font        string   Nome del font da utilizzare nella widget
 full_screen boolean  fullscreen oppure no. Falso inizialmente.
-layout      string   Il tipo di layout. Può essere "auto" oppure "grid"
+layout      string   Il tipo di layout. Può essere \\"auto\\" oppure \\"grid\\"
 title       string   Il titolo visualizzato sulla barra del titolo della window
 text_size   int      Dimensione del font da utilizzare nella widget
 text_color  color    Colore del font da utilizzare nella widget
 visible     boolean  Se la window è visibile oppure no
 when_closed function Funzione da chiamare quando la `App` viene chiusa
-width       int      La larghezza della windows in pixels
+width       int      La larghezza della windows **in pixels**
 =========== ======== ===========================================================
 
 

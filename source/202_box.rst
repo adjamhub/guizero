@@ -43,13 +43,13 @@ Quando si crea un oggetto `Box`, **si deve specificare un master** e poi eventua
 Parametro Tipo             Default   Obbligatorio Descrizione
 ========= ================ ========= ============ ========================================================================================
 master    App, Window, Box           Yes          Il contenitore a cui il Box appartiene
-align     string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align     string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 grid      List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
 layout    string           *auto*    No           Tipo di layout: *auto* oppure *grid*.
 visible   boolean          True      No           Visibilità della widget
 enabled   boolean          None      No           Se la widget è abilitata oppure no.
-width     size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height    size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width     size             None      No           Larghezza della widget **in pixel**, oppure *fill*
+height    size             None      No           Altezza della widget **in pixel**, oppure *fill*
 border    int              None      No           Larghezza del bordo in pixels.
 ========= ================ ========= ============ ========================================================================================
 
@@ -63,7 +63,12 @@ Elenco alfabetico dei metodi disponibili nell'oggetto `Box`:
 add_tk_widget(tk_widget, grid=None, align=None, visible=True, enabled=None, width=None, height=None) 
     *tk_widget (tk), grid (list), align (str), visible (bool), enabled (bool), width (int), height (int)*
     
-    Aggiunge una widget tk in un Box GuiZero. PS: Funzionalità avanzata. Verrà utilizzata solo se necessario.
+    Aggiunge una widget tk in un Box GuiZero.
+
+.. warning::
+    Lavorare con le widget Tk rappresenta per noi una funzionalità avanzata. 
+    Vedremo più avanti quando e in che modo introdurre questo concetto!
+
 
     
 after(time, command, args=None)
@@ -128,24 +133,24 @@ Elenco degli attributi accessibili per l'oggetto `Box`:
 
 
 
-=========== ================ ========================================================================================
+=========== ================ ===============================================================================================
 Parametro   Tipo             Descrizione
-=========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+=========== ================ ===============================================================================================
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo del Box
 border      int              Larghezza del bordo in pixels.
 children    list             La lista delle widget contenute
 enabled     boolean          Se la widget è abilitata oppure no.
 font        string           Nome del font da utilizzare nella widget
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
-layout      string           Tipo di layout: `"auto"` oppure `"grid"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in pixel**, oppure \\"fill\\".
+layout      string           Tipo di layout: \\"auto\\" oppure \\"grid\\".
 master      App, Window, Box Il contenitore a cui il Box appartiene
 text_size   int              Dimensione del font da utilizzare nella widget
 text_color  color            Colore del font da utilizzare nella widget
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
-=========== ================ ========================================================================================
+width       size             Larghezza della widget **in pixel**, oppure \\"fill\\"
+=========== ================ ===============================================================================================
 
 
 Esempi

@@ -44,12 +44,12 @@ Quando si crea un oggetto `Drawing`, **si deve specificare un master** e poi eve
 Parametro  Tipo             Default   Obbligatorio Descrizione
 ========== ================ ========= ============ ===============================================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
-align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align      string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 enabled    boolean          None      No           Se la widget è abilitata oppure no.
-grid       List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
-height     size             None      No           Altezza della widget in pixel, oppure `"fill"`
+grid       List             None      No           Coordinate **[x,y]** della widget. Solo con layout grid.
+height     size             None      No           Altezza della widget **in pixel**, oppure \\"fill\\"
 visible    boolean          True      No           Visibilità della widget
-width      size             None      No           Larghezza della widget in pixel, oppure `"fill"`
+width      size             None      No           Larghezza della widget **in pixel**, oppure \\"fill\\"
 ========== ================ ========= ============ ===============================================================================================================
 
 
@@ -135,30 +135,30 @@ line(x1, y1, x2, y2, color="black", width=1)
     Disegna una linea tra i 2 punti indicati e ritorna il suo Id
     
 
-oval(x1, y1, x2, y2, color="black", outline=False, outline_color="black")
+oval(x1, y1, x2, y2, color=\\"black\\", outline=False, outline_color=\\"black\\")
     *x1 (int), y1 (int), x2 (int), y2 (int), color (str), outline (int), outline_color (str)*
     
     Disegna un ovale tra i 2 punti indicati e ritorna il suo Id
 
-polygon(coords, color="black", outline=False, outline_color="black")
+polygon(coords, color=\\"black\\", outline=False, outline_color=\\"black\\")
     *coords (list int), color (str), outline (int), outline_color (str)*
     
     Disegna un poligono tra tutte le coordinate passate come argomenti e ritorna il suo Id.
     
     
-rectangle(x1, y1, x2, y2, color="black", outline=False, outline_color="black")
+rectangle(x1, y1, x2, y2, color=\\"black\\", outline=False, outline_color=\\"black\\")
     *x1 (int), y1 (int), x2 (int), y2 (int), color (str), outline (int), outline_color (str)*
     
     Disegna un rettangolo tra i 2 punti indicati e ritorna il suo Id.
     
     
-text(x, y, text, color="black", font=None, size=None, max_width=None)
+text(x, y, text, color=\\"black\\", font=None, size=None, max_width=None)
     *x (int), y (int), text (str), color (str), font (str), size (str), max_width (int)*
     
     Inserisce un testo alla posizione indicata e ritorna il suo Id.
     
 
-triangle(x1, y1, x2, y2, x3, y3, color="black", outline=False, outline_color="black")
+triangle(x1, y1, x2, y2, x3, y3, color=\\"black\\", outline=False, outline_color=\\"black\\")
     *x1 (int), y1 (int), x2 (int), y2 (int), x3 (int), y3 (int), color (str), outline (int), outline_color (str)*
     
     Disegna un triangolo tra i 3 punti indicati e ritorna il suo Id.
@@ -174,14 +174,14 @@ Elenco degli attributi accessibili per l'oggetto `Drawing`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget **in pixel**, oppure \\"fill\\".
 master      App, Window, Box Il contenitore a cui la widget appartiene
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in pixel**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 
 

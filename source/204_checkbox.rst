@@ -47,14 +47,14 @@ Parametro  Tipo             Default   Obbligatorio Descrizione
 ========== ================ ========= ============ ========================================================================================
 master     App, Window, Box           Yes          Il contenitore a cui la widget appartiene
 text       string                     Yes          Il testo da visualizzare nella checkbox
-align      string           None      No           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align      string           None      No           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 command    function         None      No           La funzione da eseguire quando un'opzione viene selezionata
 args       List             None      No           Gli (eventuali) argomenti da passare alla funzione del parametro command
-grid       List             None      No           Coordinate `[x,y]` della widget. Solo con layout grid.
+grid       List             None      No           Coordinate **[x,y]** della widget. Solo con layout grid.
 visible    boolean          True      No           Visibilità della widget
 enabled    boolean          None      No           Se la widget è abilitata oppure no.
-width      size             None      No           Larghezza della widget in pixel, oppure `"fill"`
-height     size             None      No           Altezza della widget in pixel, oppure `"fill"`
+width      size             None      No           Larghezza della widget **in caratteri**, oppure \\"fill\\"
+height     size             None      No           Altezza della widget **in caratteri**, oppure \\"fill\\"
 ========== ================ ========= ============ ========================================================================================
 
 
@@ -133,12 +133,12 @@ Elenco degli attributi accessibili per l'oggetto `CheckBox`:
 =========== ================ ========================================================================================
 Parametro   Tipo             Descrizione
 =========== ================ ========================================================================================
-align       string           Allineamento della widget nel suo contenitore: `"top"`, `"bottom"`, `"left"`, `"right"`.
+align       string           Allineamento della widget nel suo contenitore: \\"top\\", \\"bottom\\", \\"left\\", \\"right\\".
 bg          color            Il colore di sfondo della widget
 enabled     boolean          Se la widget è abilitata oppure no.
 font        string           Nome del font da utilizzare nella widget
-grid        List             Coordinate `[x,y]` della widget. Solo con layout grid.
-height      size             Altezza della widget in pixel, oppure `"fill"`.
+grid        List             Coordinate **[x,y]** della widget. Solo con layout grid.
+height      size             Altezza della widget in pixel, oppure \\"fill\\".
 master      App, Window, Box Il contenitore a cui la widget appartiene
 text        string           Il testo associato alla `CheckBox`.
 text_size   int              Dimensione del font da utilizzare nella widget
@@ -146,7 +146,7 @@ text_color  color            Colore del font da utilizzare nella widget
 value       string           Vale `1` se la casella è spuntata, `0` altrimenti.
 value_text  string           Il testo associato con l'opzione selezionata.
 visible     boolean          Visibilità della widget
-width       size             Larghezza della widget in pixel, oppure `"fill"`
+width       size             Larghezza della widget **in caratteri**, oppure \\"fill\\"
 =========== ================ ========================================================================================
 
 

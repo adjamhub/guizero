@@ -39,10 +39,10 @@ Come vedete, questa documentazione è divisa in 3 parti:
    source/102_commands.rst
    source/103_widgets.rst
    source/104_ex_ex.rst
-   source/110_layout.rst
-   source/111_size.rst
-   source/112_colors.rst
-   source/120_alerts.rst
+   source/110_size.rst
+   source/112_layout.rst
+   source/120_colors.rst
+   source/122_alerts.rst
    source/125_images.rst
    source/130_multiple_windows.rst
    source/140_events.rst
