@@ -17,6 +17,7 @@ Vediamo come si specifica il layout da utilizzare per un contenitore.
     app = App(layout="auto")
     # ... oppure ...
     app = App(layout="grid")
+    # ... insomma... impostarlo non mi sembra impossibile :)
 
 
 
